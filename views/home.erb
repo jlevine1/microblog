@@ -1,5 +1,6 @@
-<div id="wrapper"><div id="cream"></div><%=flash[:message] if flash[:message]%>
-</br>
+<div id="wrapper">
+<a href="/sign-out"><button type="button" name="" value="" class="css3button">Logout</button></a>
+<div id="cream"></div><div id="flash"><%=flash[:message] if flash[:message]%></div><div id="info">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%=@profile.fname%>&nbsp;<%=@profile.lname%>
 </br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%=@profile.email%></div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%=@profile.email%></div></div>
