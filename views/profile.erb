@@ -1,0 +1,14 @@
+<%=flash[:message] if flash[:message]%>
+Username: <%=@current_user.username%>
+</br>
+Name: <%=@current_profile.fname%>
+&nbsp;
+<%=@current_profile.lname%>
+</br>
+Email: <%=@current_profile.email%>
+</br>
+Town: <%=@current_profile.hometown%>
+</br>
+State: <%=@current_profile.state%>
+</br>
+Country: <%=@current_profile.country%>

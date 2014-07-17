@@ -1,0 +1,8 @@
+<ul>
+	<% @post.each do |n|%>
+		<li>
+			<h1> <%=n.author%> </h1>
+			<h2> <%=n.data %> </h2>
+		</li>
+	<%end%>
+</ul>

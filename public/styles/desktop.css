@@ -1,0 +1,19 @@
+body{
+	background-color:black;
+}
+#wrapper{
+	width:100%;
+	height:98px;
+	background-color:rgb(10, 119, 225);
+	margin:0 auto;
+	position:fixed;
+	left:0px;
+	right:0px;
+	top:0px;
+	color:white;
+}
+.cream{
+	width:225px;
+	height:58px;
+	background-image:url(../images/cream.png);
+}
