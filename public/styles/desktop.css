@@ -12,8 +12,9 @@ body{
 	top:0px;
 	color:white;
 }
-.cream{
+#cream{
 	width:225px;
 	height:58px;
+	left: 200px;
 	background-image:url(../images/cream.png);
 }
